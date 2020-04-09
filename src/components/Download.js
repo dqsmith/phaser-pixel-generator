@@ -32,7 +32,7 @@ const Download = (props) => {
 		},
 		{
 			mime: '',
-			label: 'Phaser Texture'
+			label: 'Phaser Texture Code'
 		}
 	];
 
