@@ -3,8 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import { updateGrid } from '../store/actions';
 
-import './Draw.scss';
-
 const Grid = () => {
 	const dispatch = useDispatch();
 	const table = [];
