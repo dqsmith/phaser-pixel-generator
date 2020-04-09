@@ -85,7 +85,7 @@ const Size = () => {
 					</div>
 					<div className="columns">
 						<div className="column">
-							<h2 className="is-column-subheader">Background Contrast</h2>
+							<h2 className="is-column-subheader">Contrast</h2>
 							<Toggle handler={changeBackground} />
 						</div>
 						<div className="column"></div>
