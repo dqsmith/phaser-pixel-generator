@@ -1,11 +1,16 @@
 import React from 'react';
 
-const Download = () => {
-	const handler = (type) => {
-		const link = document.createElement('a');
-		link.download = `download.${type}`;
-		link.href = document.querySelector('#renderer > canvas').toDataURL(`image/${type}`)
-		link.click();
+const Download = (props) => {
+	const showModal = props.showModal;
+	const handler = (mime) => {
+		if (mime) {
+			const link = document.createElement('a');
+			link.download = `download.${mime}`;
+			link.href = document.querySelector('#renderer > canvas').toDataURL(`image/${mime}`)
+			link.click();
+		} else {
+			showModal(true);
+		}
 	}
 
 	const types = [
@@ -24,6 +29,10 @@ const Download = () => {
 		{
 			mime: 'gif',
 			label: 'GIF'
+		},
+		{
+			mime: '',
+			label: 'Phaser Texture Code'
 		}
 	];
 
@@ -35,8 +44,8 @@ const Download = () => {
 					<div className="columns">
 						<div className="column">
 							{
-								types.map(type => <button className="button download-button is-info"
-									onClick={() => handler(type.mime)} key={type.mime}>{type.label}</button>)
+								types.map((type, index) => <button className="button download-button is-info"
+									onClick={() => handler(type.mime)} key={index}>{type.label}</button>)
 							}
 						</div>
 					</div>
