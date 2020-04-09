@@ -17,7 +17,7 @@ export const defaults = {
 	grid: defaultGrid(),
 	width: size,
 	height: size,
-	scale: 10,
+	scale: 15,
 	color: {
 		id: '1_1',
 		value: '1',

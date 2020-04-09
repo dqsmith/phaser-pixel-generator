@@ -5,8 +5,6 @@ import { set } from './store/actions';
 import Draw from './containers/Draw';
 import Controls from './containers/Controls';
 
-import './App.scss';
-
 const App = (props) => {
   const dispatch = useDispatch();
   setTimeout(() => {

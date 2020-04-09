@@ -42,6 +42,7 @@ export function reset() {
 		dispatch({ type: 'HEIGHT', payload: defaults.height });
 		dispatch({ type: 'COLOR', payload: defaults.color });
 		dispatch({ type: 'CONTRAST', payload: defaults.contrast });
+		dispatch({ type: 'SCALE', payload: defaults.scale });
 		dispatch({ type: 'GRID', payload: defaultGrid() });
 	}
 }

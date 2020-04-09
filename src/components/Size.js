@@ -8,8 +8,6 @@ import {
 import Slider from '../containers/Slider';
 import Toggle from '../containers/Toggle';
 
-import './Draw.scss';
-
 const Size = () => {
 	const dispatch = useDispatch();
 	const width = useSelector(state => state.sizeReducer).width;
