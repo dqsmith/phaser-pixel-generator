@@ -2,6 +2,7 @@
   "name": "phaser-pixel-generator",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://dqsmith.github.io/phaser-pixel-generator",
   "dependencies": {
     "bulma": "^0.8.1",
     "bulma-extensions": "^6.2.7",
@@ -17,7 +18,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scsripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,6 +42,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   }
 }
