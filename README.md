@@ -3,6 +3,10 @@ A fun project integrating [Phaser](https://phaser.io/) texture generating into a
 
 ![alt text](./git_images/screen_shot.png "Screen shot")
 
+## Demo
+
+[See Demo](https://dqsmith.github.io/phaser-pixel-generator/)
+
 ## Get Started
 
 Clone the repo and install the dependencies.
