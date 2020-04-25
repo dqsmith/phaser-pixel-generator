@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/phaser-pixel-generator/static/css/main.4dcd24da.chunk.css",
+    "main.js": "/phaser-pixel-generator/static/js/main.c71a7552.chunk.js",
+    "main.js.map": "/phaser-pixel-generator/static/js/main.c71a7552.chunk.js.map",
+    "runtime-main.js": "/phaser-pixel-generator/static/js/runtime-main.8d4906bb.js",
+    "runtime-main.js.map": "/phaser-pixel-generator/static/js/runtime-main.8d4906bb.js.map",
+    "static/css/2.3e60228b.chunk.css": "/phaser-pixel-generator/static/css/2.3e60228b.chunk.css",
+    "static/js/2.51f0f059.chunk.js": "/phaser-pixel-generator/static/js/2.51f0f059.chunk.js",
+    "static/js/2.51f0f059.chunk.js.map": "/phaser-pixel-generator/static/js/2.51f0f059.chunk.js.map",
+    "index.html": "/phaser-pixel-generator/index.html",
+    "precache-manifest.53adc885267cb5dba5dd040d7eddc7de.js": "/phaser-pixel-generator/precache-manifest.53adc885267cb5dba5dd040d7eddc7de.js",
+    "service-worker.js": "/phaser-pixel-generator/service-worker.js",
+    "static/css/2.3e60228b.chunk.css.map": "/phaser-pixel-generator/static/css/2.3e60228b.chunk.css.map",
+    "static/css/main.4dcd24da.chunk.css.map": "/phaser-pixel-generator/static/css/main.4dcd24da.chunk.css.map",
+    "static/js/2.51f0f059.chunk.js.LICENSE.txt": "/phaser-pixel-generator/static/js/2.51f0f059.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d4906bb.js",
+    "static/css/2.3e60228b.chunk.css",
+    "static/js/2.51f0f059.chunk.js",
+    "static/css/main.4dcd24da.chunk.css",
+    "static/js/main.c71a7552.chunk.js"
+  ]
+}
