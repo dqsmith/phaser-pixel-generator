@@ -1,5 +1,4 @@
-@import "bulma/bulma.sass";
-@import "bulma-extensions/bulma-divider/dist/css/bulma-divider.sass";
+@import "bulma/bulma.scss";
 
 body {
   margin: 0;
@@ -18,6 +17,8 @@ body {
 
 .grid {
   background-color: #000;
+  width: fit-content;
+
   .grid-row {
     .grid-cell {
       width: 20px;
@@ -31,6 +32,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   .color-cell {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -39,11 +41,13 @@ body {
     height: 50px;
     margin: 1px;
     transition: all 200ms ease;
+
     &:hover {
       transform: scale(1.2);
       z-index: 100;
     }
   }
+
   .transparent-cell {
     background-image: url("./images/transparent.png");
     background-size: contain;
@@ -63,9 +67,11 @@ canvas {
 
 .button {
   font-weight: 700;
+
   &.download-button {
     margin: 0 10px;
   }
+
   &.reset-button {
     margin-top: 30px;
   }

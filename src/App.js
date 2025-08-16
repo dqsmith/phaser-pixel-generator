@@ -5,7 +5,7 @@ import { set } from './store/actions';
 import Draw from './containers/Draw';
 import Controls from './containers/Controls';
 
-const App = (props) => {
+const App = () => {
   const dispatch = useDispatch();
   setTimeout(() => {
     dispatch(set());
@@ -17,12 +17,12 @@ const App = (props) => {
         <div className="hero-body">
           <div className="container">
             <Controls />
-            <Draw renderer={props.renderer} />
+            <Draw />
           </div>
         </div>
       </section>
     </div>
   );
-}
+};
 
 export default App;
